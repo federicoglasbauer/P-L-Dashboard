@@ -1,0 +1,19 @@
+{
+  "name": "pnl-dashboard",
+  "version": "1.0.0",
+  "description": "P&L Dashboard (EPM Hub) — proxy hacia Oracle PBCS",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.650.0",
+    "@aws-sdk/lib-dynamodb": "^3.650.0",
+    "adm-zip": "^0.5.16",
+    "express": "^4.21.0"
+  }
+}
